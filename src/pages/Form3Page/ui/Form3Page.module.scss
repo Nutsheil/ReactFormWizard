@@ -1,0 +1,34 @@
+.Form3Page {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .sliderBlock {
+    width: 70%;
+    margin-bottom: 20px;
+
+    .name {
+      margin-bottom: 5px;
+      padding-left: 10px;
+    }
+
+    .sliderArea {
+      display: flex;
+      gap: 10px;
+
+      input {
+        width: 100%;
+      }
+
+      span {
+        width: 50px;
+      }
+    }
+  }
+
+  button {
+    width: 300px;
+    border-radius: 5em;
+  }
+}

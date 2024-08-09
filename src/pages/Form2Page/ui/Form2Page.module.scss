@@ -1,0 +1,23 @@
+.Form2Page {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  select,
+  input {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+  .buttons {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      width: 150px;
+      border-radius: 5em;
+    }
+  }
+}
